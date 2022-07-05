@@ -2,11 +2,11 @@
 
 The AST explorer provides following code parsers:
 
-- wxml:
-  - [@wxml/parser](https://github.com/wxmlfile/wxml-parser)
+- less:
+  - [postcss-less](https://github.com/shellscape/postcss-less)
 
-<a href="https://wxmlfile.github.io/explorer">
-  <img src="./assets/wxml-explorer.png" align="center" />
+<a href="https://duoduofe.github.io/less-ast-explorer">
+  <img src="./assets/less-ast-explorer.png" align="center" />
 </a>
 
 ## License
