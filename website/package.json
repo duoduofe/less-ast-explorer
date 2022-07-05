@@ -1,11 +1,11 @@
 {
   "name": "astexplorer",
   "version": "2.0.0",
-  "description": "Online demo of wxml parsers",
+  "description": "Online demo of less parsers",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/wxmlfile/explorer"
+    "url": "https://github.com/duoduofe/less-ast-explorer"
   },
   "author": "iChenLei",
   "devDependencies": {
@@ -37,24 +37,24 @@
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
-    "@wxml/parser": "^0.4.0",
     "codemirror": "^5.22.0",
     "codemirror-graphql": "^0.11.6",
     "escodegen": "^1.14.1",
     "espree": "^9.3.2",
+    "font-awesome": "^4.5.0",
     "isomorphic-fetch": "^2.2.1",
     "json-stringify-safe": "^5.0.1",
     "lodash.isequal": "^4.5.0",
+    "postcss": "^8.4.14",
+    "postcss-less": "^6.0.0",
     "prettier": "^2.0.4",
     "react": "16",
     "react-dom": "^16.0.1",
     "react-redux": "^7.2.0",
-    "tern": "^0.24.3",
-    "font-awesome": "^4.5.0"
+    "tern": "^0.24.3"
   },
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "dev": "concurrently \"yarn start\" \"yarn build-dev\"",
     "start": "serve -l 8080 ../out",
     "build": "rimraf ../out/* && cross-env NODE_ENV=production webpack --mode=production",
     "build-dev": "rimraf ../out/* && cross-env NODE_ENV=development webpack -d --mode=development",

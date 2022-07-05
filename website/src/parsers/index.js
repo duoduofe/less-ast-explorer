@@ -59,7 +59,7 @@ export const categories =
   });
 
 export function getDefaultCategory() {
-  return categoryByID.wxml;
+  return categoryByID.css;
 }
 
 export function getDefaultParser(category = getDefaultCategory()) {
